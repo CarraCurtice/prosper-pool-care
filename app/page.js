@@ -45,6 +45,10 @@ export default function Home() {
             <li>Month-to-month, cancel anytime</li>
             <li>Flat pricing quoted up front</li>
           </ul>
+          <div className="hero-form">
+            <p className="hero-form-title">Or request a call back:</p>
+            <LeadForm compact />
+          </div>
         </div>
       </section>
 
