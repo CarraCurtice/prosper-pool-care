@@ -19,7 +19,7 @@ const localBusinessSchema = {
   name: SITE.name,
   description: "Residential pool service and repair for Prosper, Texas.",
   url: SITE.domain,
-  telephone: SITE.phoneTel, // TODO: TWILIO TRACKING NUMBER (set in lib/config.js)
+  telephone: SITE.phoneTel,
   areaServed: {
     "@type": "City",
     name: "Prosper",
