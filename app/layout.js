@@ -1,4 +1,5 @@
 import "./globals.css";
+import Script from "next/script";
 import { Header, Footer } from "../components/SiteChrome";
 import { SITE } from "../lib/config";
 
@@ -41,6 +42,18 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaMeasurementId}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${SITE.gaMeasurementId}');
+          `}
+        </Script>
         <Header />
         <main>{children}</main>
         <Footer />
