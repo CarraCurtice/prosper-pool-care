@@ -117,6 +117,13 @@ export default function Home() {
               height="800"
               loading="lazy"
             />
+            <img
+              src="/images/green-algae-pool-before-cleaning.jpg"
+              alt="Neglected backyard pool with cloudy green algae-filled water before a one-time cleanup"
+              width="1600"
+              height="1067"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
