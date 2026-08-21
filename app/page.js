@@ -95,36 +95,6 @@ export default function Home() {
             July breakdown gets same-week attention.{" "}
             <Link href="/service-areas/">See every neighborhood we cover.</Link>
           </p>
-          <div className="photo-strip">
-            <img
-              src="/images/pool-tech-service-visit.jpg"
-              alt="Pool technician skimming a backyard pool with a robotic cleaner on the deck"
-              width="1200"
-              height="800"
-              loading="lazy"
-            />
-            <img
-              src="/images/pump-filter-equipment.jpg"
-              alt="Cartridge filter element and brush on an equipment pad next to a pool pump"
-              width="1200"
-              height="800"
-              loading="lazy"
-            />
-            <img
-              src="/images/skimming-pool.jpg"
-              alt="Skimmer net pulling leaves from clear blue pool water"
-              width="1200"
-              height="800"
-              loading="lazy"
-            />
-            <img
-              src="/images/green-algae-pool-before-cleaning.jpg"
-              alt="Neglected backyard pool with cloudy green algae-filled water before a one-time cleanup"
-              width="1600"
-              height="1067"
-              loading="lazy"
-            />
-          </div>
         </div>
       </section>
 
