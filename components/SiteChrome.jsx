@@ -51,7 +51,7 @@ export function Footer() {
           </ul>
         </nav>
         <p className="footer-fine">
-          © {new Date().getFullYear()} {SITE.name} · Prosper, TX — Windsong
+          © {new Date().getFullYear()} {SITE.name} · Prosper, TX, including Windsong
           Ranch, Star Trail, Whitley Place, Lakes of La Cima, Gentle Creek, and
           surrounding neighborhoods.
         </p>

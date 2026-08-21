@@ -6,11 +6,11 @@ import { SITE } from "../lib/config";
 export const metadata = {
   metadataBase: new URL(SITE.domain),
   title: {
-    default: `${SITE.name} — Pool Service in Prosper, TX`,
+    default: `${SITE.name} | Pool Service in Prosper, TX`,
     template: `%s | ${SITE.name}`,
   },
   description:
-    "Weekly pool service, repairs, and filter cleans for Prosper, TX homes — Windsong Ranch, Star Trail, Whitley Place, Lakes of La Cima, and beyond.",
+    "Weekly pool service, repairs, and filter cleans for Prosper, TX homes, including Windsong Ranch, Star Trail, Whitley Place, Lakes of La Cima, and beyond.",
   openGraph: { siteName: SITE.name, locale: "en_US", type: "website" },
 };
 

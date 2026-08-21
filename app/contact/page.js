@@ -44,7 +44,7 @@ export default function Contact() {
           <div>
             <h2>Service Area</h2>
             <p>
-              Prosper, TX — Windsong Ranch, Star Trail, Whitley Place, Lakes of
+              Prosper, TX, including Windsong Ranch, Star Trail, Whitley Place, Lakes of
               La Cima, Gentle Creek Estates, Whispering Farms, Legacy Gardens,
               Brookhollow, and the established streets around downtown.
             </p>

@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { SITE } from "../lib/config";
-import { Faq, Photo, LeadForm, PhoneCta } from "../components/parts";
+import { Faq, LeadForm, PhoneCta } from "../components/parts";
 
 export const metadata = {
-  title: "Pool Cleaning in Prosper, TX — Weekly Service & Repairs",
+  title: "Pool Cleaning in Prosper, TX | Weekly Service & Repairs",
   description:
     "Straightforward weekly pool service and repairs in Prosper, TX. Serving Windsong Ranch, Star Trail, Whitley Place, Lakes of La Cima and the rest of town. Call for a quote.",
   alternates: { canonical: "/" },
@@ -16,11 +16,11 @@ const faqItems = [
   },
   {
     q: "Is there a contract?",
-    a: "No. Service is month to month. If you're not happy, you cancel — that's the whole policy.",
+    a: "No. Service is month to month. If you're not happy, you cancel. That's the whole policy.",
   },
   {
-    q: "I live in Windsong Ranch — the lagoon is maintained for us. Why do I need pool service?",
-    a: "The Crystal Lagoon is community-run, but your backyard pool is entirely yours: chemistry, filtration, equipment, all of it. Most of our Windsong customers use the lagoon for the scene and their own pool daily — and it's the one that needs a weekly visit.",
+    q: "I live in Windsong Ranch, and the lagoon is maintained for us. Why do I need pool service?",
+    a: "The Crystal Lagoon is community-run, but your backyard pool is entirely yours: chemistry, filtration, equipment, all of it. Most of our Windsong customers use the lagoon for the scene and their own pool daily, and it's the one that needs a weekly visit.",
   },
   {
     q: "What kind of filter do I have, and does it matter?",
@@ -36,7 +36,7 @@ export default function Home() {
           <h1>Pool Cleaning in Prosper, TX</h1>
           <p>
             Weekly service and repairs for backyard pools across Prosper. No
-            contracts, no upsell scripts — a clean pool and a flat monthly
+            contracts, no upsell scripts. Just a clean pool and a flat monthly
             price.
           </p>
           <PhoneCta line="Get a quote in one call:" />
@@ -61,7 +61,7 @@ export default function Home() {
                 <Link href="/weekly-pool-service/">Weekly Pool Service</Link>
               </h3>
               <p>
-                Skim, brush, vacuum, baskets, chemistry — every week on the
+                Skim, brush, vacuum, baskets, chemistry, every week on the
                 same day, with a report after each visit.
               </p>
             </li>
@@ -83,7 +83,7 @@ export default function Home() {
           <h2>Built for Prosper Pools</h2>
           <p>
             Prosper&rsquo;s pool stock is young but working hard. Most were
-            built alongside the home in the last decade — which means builder-
+            built alongside the home in the last decade, which means builder-
             grade equipment now aging out of warranty in Windsong Ranch and
             Star Trail, heavy bather loads all summer, and North Texas water
             hard enough to scale a tile line in two seasons. Down in Whitley
@@ -96,9 +96,27 @@ export default function Home() {
             <Link href="/service-areas/">See every neighborhood we cover.</Link>
           </p>
           <div className="photo-strip">
-            <Photo note="Real photo: weekly service visit at a Prosper pool — tech brushing or skimming. Get customer permission." />
-            <Photo note="Real photo: cartridge filter deep-clean in progress at a local equipment pad." />
-            <Photo note="Real photo: finished pool, clear water, Prosper backyard (fence/landscape visible, no faces)." />
+            <img
+              src="/images/pool-tech-service-visit.jpg"
+              alt="Pool technician skimming a backyard pool with a robotic cleaner on the deck"
+              width="1200"
+              height="800"
+              loading="lazy"
+            />
+            <img
+              src="/images/pump-filter-equipment.jpg"
+              alt="Cartridge filter element and brush on an equipment pad next to a pool pump"
+              width="1200"
+              height="800"
+              loading="lazy"
+            />
+            <img
+              src="/images/skimming-pool.jpg"
+              alt="Skimmer net pulling leaves from clear blue pool water"
+              width="1200"
+              height="800"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>

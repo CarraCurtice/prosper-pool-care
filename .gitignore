@@ -5,3 +5,6 @@ out/
 .env*
 
 .vercel
+
+# Raw photo originals (optimized copies live in public/images/)
+/*.jpg

@@ -1,10 +1,10 @@
 import { SITE } from "../../lib/config";
-import { Faq, Photo, PhoneCta } from "../../components/parts";
+import { Faq, PhoneCta } from "../../components/parts";
 
 export const metadata = {
   title: "Weekly Pool Service in Prosper, TX",
   description:
-    "Weekly pool maintenance in Prosper, TX — same day every week, full chemistry, visit reports. Flat monthly pricing for Windsong Ranch, Star Trail, Whitley Place and all of Prosper.",
+    "Weekly pool maintenance in Prosper, TX. Same day every week, full chemistry, visit reports. Flat monthly pricing for Windsong Ranch, Star Trail, Whitley Place and all of Prosper.",
   alternates: { canonical: "/weekly-pool-service/" },
 };
 
@@ -15,11 +15,11 @@ const faqItems = [
   },
   {
     q: "Same tech every week?",
-    a: "That's the goal and the norm. A tech who knows your pool spots changes — a pressure gauge creeping up, a pump getting louder — before they become repair calls.",
+    a: "That's the goal and the norm. A tech who knows your pool spots changes like a pressure gauge creeping up or a pump getting louder before they become repair calls.",
   },
   {
     q: "Do you service pools with automation systems?",
-    a: "Yes. Many newer Prosper builds run app-controlled automation. We work with it, not around it — schedules, freeze protection, and cleaning cycles get set correctly rather than fought weekly.",
+    a: "Yes. Many newer Prosper builds run app-controlled automation. We work with it, not around it. Schedules, freeze protection, and cleaning cycles get set correctly rather than fought weekly.",
   },
   {
     q: "When does service start after I sign up?",
@@ -50,13 +50,13 @@ export default function WeeklyService() {
             <li>Vacuum the floor when conditions call for it</li>
             <li>Empty skimmer and pump baskets</li>
             <li>Test and balance sanitizer, pH, alkalinity</li>
-            <li>Check the equipment pad — pressure, sound, leaks</li>
+            <li>Check the equipment pad for pressure, sound, and leaks</li>
             <li>Send your visit report</li>
           </ol>
           <p>
             The equipment check matters more than it sounds. Prosper&rsquo;s
             housing boom means thousands of pools hit the 8–12 year mark at
-            the same time — the age when builder-installed pumps and filters
+            the same time, the age when builder-installed pumps and filters
             start failing. A weekly set of eyes catches most of it early, when
             the fix is a seal instead of a motor.
           </p>
@@ -81,11 +81,6 @@ export default function WeeklyService() {
             chlorine demand roughly doubles in family pools. We adjust dosing
             in June rather than reacting to cloudy water in July.
           </p>
-          <div className="photo-strip">
-            <Photo note="Real photo: visit report on a phone screen next to the pool it describes." />
-            <Photo note="Real photo: tech testing water poolside at a Prosper home." />
-            <Photo note="Real photo: equipment pad check — hand on filter gauge." />
-          </div>
         </div>
       </section>
 

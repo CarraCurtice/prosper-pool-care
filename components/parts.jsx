@@ -30,16 +30,6 @@ export function Faq({ items, heading = "Common Questions" }) {
   );
 }
 
-/** Loud placeholder block — swap for a real local photo before launch. */
-export function Photo({ note }) {
-  return (
-    <div className="photo-slot" role="img" aria-label={`Photo placeholder: ${note}`}>
-      <strong>PHOTO PLACEHOLDER</strong>
-      <span>{note}</span>
-    </div>
-  );
-}
-
 /** Short lead form — posts to SITE.formEndpoint (wire before launch). */
 export function LeadForm({ compact = false }) {
   return (
