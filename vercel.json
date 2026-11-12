@@ -1,0 +1,27 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": { "eq": "prosper-pool-care.vercel.app" }
+        }
+      ],
+      "destination": "https://prosperpoolcare.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": { "eq": "www.prosperpoolcare.com" }
+        }
+      ],
+      "destination": "https://prosperpoolcare.com/$1",
+      "permanent": true
+    }
+  ]
+}
